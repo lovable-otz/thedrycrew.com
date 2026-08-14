@@ -1,0 +1,50 @@
+# The Dry Crew
+
+> The Dry Crew publishes researched price ranges for water damage restoration and mold remediation across the United States, sets out each state licensing position against its own authority, and connects property owners with local providers.
+
+## Services
+- [Burst Pipes and Hidden Leaks](https://thedrycrew.com/burst-pipes-and-leaks/): A burst supply line is the most commonly covered water loss there is.
+- [Drying Time and the Restoration Timeline](https://thedrycrew.com/drying-and-timelines/): Drying a contained clean-water loss takes 3 to 5 days with equipment monitored daily.
+- [Flooded Basement Cleanup](https://thedrycrew.com/basement-flooding/): Flooded basement cleanup costs $12 to $25+ per sq ft when floodwater is involved, because it is Category 3. What homeowners insurance covers and what it does not.
+- [Mold Inspection and Testing](https://thedrycrew.com/mold-inspection-and-testing/): When a mold test is worth paying for and when it is not, why the firm that tests should not remediate, and what the 3 licensing states require of each role.
+- [Mold Remediation](https://thedrycrew.com/mold-remediation/): Mold remediation costs $1,100 to $3,400 for a contained area.
+- [Sewage Cleanup and Category 3 Water](https://thedrycrew.com/sewage-cleanup/): Sewage backup is Category 3 under IICRC S500, so porous materials are removed rather than cleaned.
+- [Storm and Flood Damage](https://thedrycrew.com/storm-and-flood-damage/): Wind-driven rain is a homeowners claim; rising water needs flood cover.
+- [Water Damage Insurance Claims](https://thedrycrew.com/insurance-claims/): Sudden water damage is usually covered; gradual leaks and flooding are not.
+- [Water Damage Restoration](https://thedrycrew.com/water-damage-restoration/): Water damage restoration explained: $3.75 to $7 per sq ft for clean water, up to $25+ for Category 3. What happens on day one and what to document for the claim.
+- [What Water Damage Restoration Costs](https://thedrycrew.com/water-damage-cost/): Water damage restoration costs $1,300 to $5,900 for a typical claim, or $3.75 to $25+ per sq ft depending on water category.
+- [What Water Damage Work Actually Costs](https://thedrycrew.com/pricing/): Published water damage and mold prices: $3.75 to $7 per sq ft clean water, $12 to $25+ for Category 3, mold remediation $1,100 to $3,400. Sourced and dated.
+
+## Guides
+- [Does Insurance Cover This? Sudden Damage vs Flooding](https://thedrycrew.com/guides/does-insurance-cover-this/): Sudden water damage is usually covered in the US; rising water is not.
+- [What the Water Categories Mean](https://thedrycrew.com/guides/what-the-water-categories-mean/): IICRC water categories 1, 2 and 3 explained, and why category not area sets the price.
+
+## State coverage
+- [Arizona](https://thedrycrew.com/arizona/): Arizona has no mold licence; what applies is the ordinary contractor licence, required once labour and materials exceed $1,000. Restoration runs $1,300 to $5,900.
+- [California](https://thedrycrew.com/california/): California has no licensing requirement for mold work at all, and CDPH says so directly.
+- [Colorado](https://thedrycrew.com/colorado/): Colorado does not regulate mold at all: CDPHE says the inspection and remediation industries are completely unregulated.
+- [Connecticut](https://thedrycrew.com/connecticut/): Connecticut licenses nobody for mold work, but its health department publishes abatement guidelines a contractor should be following.
+- [District of Columbia](https://thedrycrew.com/district-of-columbia/): The District licenses mold assessors and remediators separately, and requires $1,000,000 of cover from each.
+- [Florida](https://thedrycrew.com/florida/): Florida licenses mold assessors and mold remediators separately, and the licence is required above ten square feet.
+- [Georgia](https://thedrycrew.com/georgia/): Georgia does not regulate mold work: the state health department says indoor air quality is not a regulated programme.
+- [Illinois](https://thedrycrew.com/illinois/): Illinois registers mold remediation firms rather than licensing them, and requires third-party certification to register.
+- [Kentucky](https://thedrycrew.com/kentucky/): Kentucky issues no mold licence but does impose statutory duties, including a written contract, enforced by the Attorney General.
+- [Louisiana](https://thedrycrew.com/louisiana/): Louisiana requires a Mold Remediation licence from the state contractor board once the job value exceeds $7,500. Restoration runs $1,300 to $5,900 for a typical.
+- [Maine](https://thedrycrew.com/maine/): Maine sets statutory standards for mold work and requires a certified assessor once visible mold exceeds 3 square feet in a rental.
+- [New Hampshire](https://thedrycrew.com/new-hampshire/): New Hampshire is the state that certifies the mold assessor and not the remediator, required for residential assessment since 1 January 2016. Restoration runs.
+- [New York](https://thedrycrew.com/new-york/): New York licenses four separate mold roles under Article 32, and bars the same person from both assessing and remediating the same property.
+- [North Carolina](https://thedrycrew.com/north-carolina/): North Carolina has no mold credential; the general contractor licence only bites once a project reaches $40,000. Restoration runs $1,300 to $5,900 for a typical.
+- [Oregon](https://thedrycrew.com/oregon/): Oregon requires a CCB contractor licence to do mold cleanup, but there is no mold-specific credential behind it.
+- [Tennessee](https://thedrycrew.com/tennessee/): Tennessee carries mold remediation as a specialty environmental classification inside the state contractor licence.
+- [Texas](https://thedrycrew.com/texas/): Texas licenses mold work once growth reaches 25 contiguous square feet, and the consultant who writes the protocol may not be the contractor who does the work.
+- [Virginia](https://thedrycrew.com/virginia/): Virginia makes uncertified residential mold remediation a Consumer Protection Act violation rather than an unlicensed-trade offence.
+- [Washington](https://thedrycrew.com/washington/): Washington has no mold certification requirement at all, and the Department of Health says so in as many words.
+
+## Metro coverage
+- [Houston](https://thedrycrew.com/texas/houston/): Houston water damage: typical jobs run $1,067 to $5,169. Harvey flooded 136,000 Harris County structures, 68% outside the mapped floodplain.
+
+## Optional
+- [Sitemap](https://thedrycrew.com/sitemap.xml)
+- [About and method](https://thedrycrew.com/about/)
+
+Last reviewed: 2026-08-15

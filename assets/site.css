@@ -500,6 +500,33 @@ footer.site a.btn--ghost,footer.site a.btn--ghost:hover{color:#fff}
 .svc-card--noimg .svc-card__b .more{color:var(--p)}
 .whyx--noimg{grid-template-columns:1fr;max-width:74ch}
 
+/* The why-us media box sets min-height but no height, so the img's height:100% resolved
+   to auto -- and a lazy image that has not decoded yet has no intrinsic height, so it
+   rendered at 0px inside a 340px box. Take the image out of flow and pin it to the box.
+   The box itself stretches to the row so it matches the copy column beside it. */
+.whyx__img{align-self:stretch}
+.whyx__img img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+
+/* ===== coverage index: state, then its metros on the same row ===== */
+.cov-list{display:grid;gap:2px;margin:26px 0 0;border:1px solid var(--line,#e5e7eb);
+  border-radius:var(--radius);overflow:hidden;background:var(--line,#e5e7eb)}
+.cov-row{display:grid;grid-template-columns:minmax(180px,.36fr) 1fr;gap:18px;
+  padding:15px 18px;background:var(--bg,#fff);align-items:baseline}
+.cov-row__st{font-family:var(--disp);font-weight:700;color:var(--p);text-decoration:none}
+.cov-row__st:hover{text-decoration:underline}
+.cov-row__mt{display:flex;flex-wrap:wrap;gap:8px 16px}
+.cov-row__mt a{color:var(--ink-2,#374151);text-decoration:none;font-size:.95rem}
+.cov-row__mt a:hover{color:var(--accent);text-decoration:underline}
+.cov-row__none{color:var(--muted,#6b7280);font-size:.9rem}
+/* Metro cards on a state hub */
+.cov-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:14px;margin:18px 0 8px}
+.cov-grid .card{display:block;padding:16px 18px;border:1px solid var(--line,#e5e7eb);
+  border-radius:var(--radius);text-decoration:none;background:var(--bg,#fff);transition:.18s}
+.cov-grid .card:hover{border-color:var(--accent);transform:translateY(-2px)}
+.cov-grid .card strong{display:block;color:var(--p);font-family:var(--disp);margin-bottom:3px}
+.cov-grid .card small{color:var(--muted,#6b7280);font-size:.85rem;line-height:1.4}
+@media(max-width:640px){.cov-row{grid-template-columns:1fr;gap:6px}}
+
 /* Published price tables. Wide content scrolls inside its own box so the page body
    never scrolls sideways on a phone. */
 .tw{overflow-x:auto;margin:22px 0;border:1px solid var(--line,#e5e7eb);border-radius:var(--radius)}
