@@ -47,4 +47,4 @@
 - [Sitemap](https://thedrycrew.com/sitemap.xml)
 - [About and method](https://thedrycrew.com/about/)
 
-Last reviewed: 2026-08-15
+Last reviewed: 2026-08-16
