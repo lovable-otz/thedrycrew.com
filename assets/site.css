@@ -76,7 +76,14 @@ nav.main>a:hover,.nav-item>button:hover{background:var(--soft);text-decoration:n
 .hd .tel svg{fill:var(--accent);flex:0 0 auto}
 .hd .btn{margin-left:2px;flex:0 0 auto;padding:12px 20px}
 .burger{display:none;margin-left:auto;background:none;border:0;cursor:pointer;padding:8px}
-.burger span{display:block;width:24px;height:2.5px;background:var(--ink);border-radius:2px;margin:5px 0}
+.burger span{display:block;width:24px;height:2.5px;background:var(--ink);border-radius:2px;margin:5px 0;
+  transition:transform .22s cubic-bezier(.2,.75,.25,1),opacity .15s ease}
+/* Open state: the three bars fold into a close icon. Adjacent margins collapse, so the
+   bar centres sit 7.5px apart -- that is the distance each outer bar travels to meet
+   in the middle. Without this the button gave no feedback that the menu was open. */
+.burger.is-open span:nth-child(1){transform:translateY(7.5px) rotate(45deg)}
+.burger.is-open span:nth-child(2){opacity:0;transform:scaleX(.4)}
+.burger.is-open span:nth-child(3){transform:translateY(-7.5px) rotate(-45deg)}
 /* hero (variant-aware) */
 .hero{position:relative;background:linear-gradient(155deg,var(--pd),var(--p));color:#fff;overflow:hidden}
 .hero::after{content:"";position:absolute;right:-140px;top:-140px;width:420px;height:420px;border-radius:50%;background:var(--accent);opacity:.14}

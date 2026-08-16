@@ -1,6 +1,23 @@
 (function(){
  var b=document.querySelector('.burger'),n=document.querySelector('nav.main');
- if(b)b.addEventListener('click',function(){n.classList.toggle('open')});
+ if(b){
+   b.setAttribute('aria-expanded','false');
+   b.setAttribute('aria-controls','site-nav');
+   if(n)n.id=n.id||'site-nav';
+   b.addEventListener('click',function(){
+     var open=n.classList.toggle('open');
+     b.classList.toggle('is-open',open);
+     b.setAttribute('aria-expanded',open?'true':'false');
+     b.setAttribute('aria-label',open?'Close menu':'Menu');
+   });
+   // Escape closes it, and focus returns to the button that opened it.
+   document.addEventListener('keydown',function(e){
+     if(e.key==='Escape'&&n.classList.contains('open')){
+       n.classList.remove('open');b.classList.remove('is-open');
+       b.setAttribute('aria-expanded','false');b.setAttribute('aria-label','Menu');b.focus();
+     }
+   });
+ }
  document.querySelectorAll('.nav-item>button').forEach(function(btn){
    btn.addEventListener('click',function(e){
      if(window.matchMedia('(max-width:960px)').matches){e.preventDefault();btn.parentNode.classList.toggle('open')}
